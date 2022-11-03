@@ -1,9 +1,10 @@
 import './App.css';
+import { HomePage } from './pages/Home';
 
 const App = () => {
   return (
     <div className='App'>
-      <h1>Encuestas</h1>
+      <HomePage/>
     </div>
   );
 };
